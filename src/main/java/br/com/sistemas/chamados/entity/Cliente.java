@@ -6,8 +6,6 @@ importjakarta.persistence.GeneratedValue;
 importjakarta.persistence.GenerationType;
 importjakarta.persistence.Id;
 importjakarta.persistence.Table;
-
-/**ENTITY:representa a tabela do banco. Cada objeto = uma linha. */
 @Entity
 @Table(name="clientes")
 public class cliente {
